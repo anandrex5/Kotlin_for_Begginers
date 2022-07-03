@@ -64,6 +64,91 @@ fun main()
 
 
 
+--------------------------------------------------------------- CONCEPT 3 for var ----------------------------------------------------------------------------------
+
+Step 1 - //create a Kotlin class name Alien.kt
+
+class Alien {
+
+    //create a variable
+    var name :String = ""
+}
+
+
+Step 2 - //and now create a Kotlin file name Objects.kt
+
+
+fun main()
+{
+    println("Hello Aliens")
+    
+    //crate an object and use of var
+    var tittu = Alien();
+    
+    //assign the value and here we can change the value of tittu
+    tittu.name = "Harsh"
+
+    println("My name is : ${tittu.name}")
+
+}
+
+/////////////////////////////////////////////////////////  as we do in var Now below change this coe to understand some concept ////////////////////////////////////// 
+
+
+
+fun main()
+{
+    println("Hello Aliens")
+    //crate an object
+    var tittu = Alien();
+    //assign the value
+    tittu.name = "Harsh"
+
+
+    //concatenation
+    println("My name is :" +tittu.name)
+
+    //or same thing but without concatenation
+
+    println("My name is : ${tittu.name}")
+
+
+///////////////////////////////////////////////////Concept Appleid ////////////////////////////////////////////
+
+
+  //create a new object
+
+    tittu = Alien();
+
+    println("My name is : ${tittu.name}")
+    
+   
+    
+    
+    //you got blank in output bcz  
+    //line 23 is new object ( i.e, tittu = Alien(); )
+    //New object will have default value which is BLANK in Alien.Class ( i,e  var name :String = "")
+
+}
+
+
+
+
+
+
+
+############################### OUTPUT ###############################
+
+Hello Aliens
+My name is :Harsh
+My name is : Harsh
+My name is : 
+
+
+
+
+
+
 
 
  
