@@ -1,0 +1,75 @@
+//var 
+
+Step 1 - //create a Kotlin class name Alien.kt
+
+class Alien {
+
+    //create a variable
+    var name :String = ""
+}
+
+
+Step 2 - //and now create a Kotlin file name Objects.kt
+
+
+fun main()
+{
+    println("Hello Aliens")
+    
+    //crate an object and use of var
+    var tittu = Alien();
+    
+    //assign the value and here we can change the value of tittu
+    tittu.name = "Harsh"
+
+    println("My name is : ${tittu.name}")
+
+}
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+//Use of val
+ Same code above one 
+ 
+Step 1 - //create a Kotlin class name Alien.kt
+
+class Alien {
+
+    //create a variable and use of val
+    val name :String = " "
+}
+
+
+
+
+Step 2 - //and now create a Kotlin file name Objects.kt
+
+
+fun main()
+{
+    println("Hello Aliens")
+    
+    //crate an object and use of var
+    val tittu = Alien();
+    
+    //here we cant assign or change the value (therefore, it shows some erros)
+    tittu.name = "Harsh"
+
+    println("My name is : ${tittu.name}")
+
+}
+
+
+
+
+
+ 
+ 
+
+
+
+
+
