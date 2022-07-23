@@ -1,0 +1,102 @@
+package com.example.kotlin_practice
+
+//for better understanding un-comment one by one Program.
+
+//Program 1
+
+//fun main() {
+//
+//    var a:String = "Hello"
+//    var b:String = "Anand Nishad"
+//
+//    var age:Int = 25
+//
+//    println(a)
+//
+//    //concatenate strings
+//    println(a+b)
+//
+//    //for spacing between two strings while concatenates
+//
+//    println(a + " " + b)
+//
+//    println("Your age is is = " +age)
+//    println("Your age is is =  $age")
+//}
+
+
+//Program 2
+
+//Find the length of the string
+
+//fun main() {
+//
+//    var a:String = "Hello Anand"
+//    var i:Int = a.length
+//
+//    println("The length of the string is = " +i)
+//
+//}
+
+
+//Program 3
+//Compare two Strings using equal()
+
+//fun main() {
+//
+//    var  a:String = "Hello Anand"
+//
+//    var b:Boolean = a.equals("Java")
+//    println(b)
+//}
+
+
+//Program 4 - Check string a is Empty or not using Empty function
+
+//fun main() {
+//    var a: String = "Hello Anand"
+//    println(a.isEmpty())
+//}
+
+
+
+
+//Program 5 -Add string to previous one using Plus()
+
+//fun main() {
+//
+//    var a : String = "Anand "
+//    println(a.plus("Nishad"))
+//}
+
+
+//Program 6 -Convert uppercase and lowercase
+
+//fun main() {
+//    var a :String = "Anand"
+//
+//    //for lowercase
+//    println(a.lowercase())
+//
+//    //for separation visibility
+//    println("*****************")
+//
+//    println(a.uppercase())
+//
+//}
+
+//Two Remove Spaces between Two Concatenate Strings
+
+fun main() {
+
+    var a:String= "Anand"
+    var b:String = "   Nishad   "
+
+    //check output you will got spaces between them
+    println(a + b)
+
+
+    //Now, we remove spaces between them by using Trim().
+    println(a + b.trim())
+
+}
