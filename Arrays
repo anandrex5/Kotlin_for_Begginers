@@ -1,6 +1,7 @@
 package com.example.kotlin_practice
 
-
+What is array and what its use ?
+Ans - Arrays are actually objects that holds multiple data of the same type together.
 
 
 //Program 1 - (for numbers)
