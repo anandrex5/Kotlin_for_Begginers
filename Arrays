@@ -1,0 +1,63 @@
+package com.example.kotlin_practice
+
+
+
+
+//Program 1 - (for numbers)
+
+//fun main() {
+//
+//    var age = arrayOf(1,2,3)
+//
+//    //we print the element of 0 index
+//    println("My first array element is : " + age[0])
+//
+//    //we can also get these values through get method get() -
+//
+//    println("My second array element is : " + age.get(0))
+//}
+
+
+
+
+// Program 2 - (for strings)
+
+//fun main() {
+//
+//    var car = arrayOf("Audi","BMW", "Lamborghini")
+//
+//    println("My fav car is - " + car[2])
+//    println("My fav car is - "+ car.get(2))
+//
+////set way to print the same thing
+//     println("My favourite car is : ${car[2]}")
+//
+//
+////fine the size of the array using array() -
+//
+//    println("The size of the array is : " + car.size)
+//
+//}
+
+
+
+
+//Program 3 -
+
+fun main() {
+
+    var CarsandAge = arrayOf("Anand", 25, "Ashish", 28 , "Akash",24)
+
+    println("The first value of the array is :"+ CarsandAge[0])
+
+    println("His age is :" + CarsandAge[1])
+
+    println("Total elements in the array : " + CarsandAge.size)
+
+}
+
+
+
+
+
+
