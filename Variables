@@ -1,0 +1,19 @@
+package com.example.kotlin_practice
+
+fun main(args:Array<String>)
+{
+    var a= 10
+    var b= 20
+    var c = a + b
+    println(c)
+
+
+    //mutable
+
+    var age = 25
+     age  = 26   //assign new value so var is mutable
+    println(age)
+
+    val year = 2021
+  //  year = 2022 // it shows year because val is immutable so we can't re-assign value
+}
