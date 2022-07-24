@@ -1,0 +1,100 @@
+package com.example.kotlin_practice
+
+//NEED OF  Array List -
+// When we add some new elements in arrays it shows some errors , that's why we are using arrayList.
+
+//Program 1 -
+
+//fun main() {
+//
+//    var age = arrayListOf<Int>()
+//
+//    age.add(10)
+//    age.add(1, 25)
+//    age.add(30)
+//
+//    println("The first element of the array : " + age[0])
+//
+//    println("The second element of the array is :" + age.get(1))
+//
+//    println("The third element of the arrays is : ${age[2]}")
+//
+//
+//}
+
+
+//Program 2 - Now we remove one elements from the above array and then check the elements of the array list.
+
+//    fun main() {
+//
+//        var age = arrayListOf<Int>()
+//
+//        age.add(10)
+//        age.add(1,25)
+//        age.add(30)
+//
+//        println("The size of the arrays is :" + age.size)
+//
+//        age.remove(25)
+//
+//         println("The first element of the array :" + age[0])
+//
+//        println("The second element of the array is: " + age.get(1))
+//
+//        println("Now, The size of the arrays is: " + age.size)
+//}
+
+
+//Program 3 - Now we make a array List in String Form -
+
+//fun main() {
+//
+//    var cars = arrayListOf<String>("Audi", "BMW")
+//
+//    cars.add("Lamborghini")
+//
+//    println("The first element of the array :" + cars[0])
+//
+//        println("The second element of the array is: " + cars.get(1))
+//
+//        println("Now, The size of the arrays is:  ${cars[2]}")
+//}
+
+
+//Program 4 (IMP) - If you want to work with different types of data with arrays like INT , Strings
+
+
+fun main() {
+
+    var cars = arrayListOf<String>("Audi", "BMW")
+
+    cars.add("Lamborghini")
+
+        println("The first element of the array :" + cars[0])
+        println("The second element of the array is: " + cars.get(1))
+        println("Now, The size of the arrays is:  ${cars[2]}")
+
+    println("------------------------------------------------------------")
+
+    //Here we are going to deal with different data types with arrayList
+
+
+    //create variable of mix data types
+    var myMixArrayList = ArrayList<Any>()
+    myMixArrayList.add("Ford")
+    myMixArrayList.add(5)
+    myMixArrayList.add(2.5)
+    myMixArrayList.add(true)
+    myMixArrayList.add('K')
+
+//Now we print the different types of dataTypes
+    println("The first element of the array :" + myMixArrayList[0])
+    println("The second element of the array is: " + myMixArrayList[1])
+    println("The third element of the array :" + myMixArrayList[2])
+    println("The fourth element of the array :" + myMixArrayList[3])
+    println("The fifth element of the array :" + myMixArrayList[4])
+
+
+
+
+}
