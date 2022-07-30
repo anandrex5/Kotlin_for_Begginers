@@ -1,0 +1,61 @@
+
+//Set  - We can't store replicate elements
+
+/*
+
+
+//Program  1 -
+
+//ArrayList
+
+
+fun main() {
+    var age = arrayListOf < Int>(1,2,3,2)
+    println(age.size)
+}
+
+//You will get output 4 bcz we can use multiple replicate elements in arrayList
+
+
+//Program 2 - Example of Set
+
+fun main() {
+
+    var age = setOf<Int>(1,2,3,2)
+    println(age.size)
+
+}
+
+//You will get output 3 bcz in Set we cannot use replicate elements.
+
+*/
+
+
+
+//Program 3 - ArrayList
+
+
+/*
+fun main() {
+
+    var diff_var = arrayListOf<Any>(2,2.5,'K',true,"Kotlin")
+    println(diff_var.size)
+    println(diff_var.last())
+}
+ */
+
+
+//above same program with Set
+
+fun main() {
+
+    var diff_var = setOf<Any>("Kotlin",2,2.5,true,'K',"Kotlin")
+    println(diff_var.size)
+    println(diff_var.last())
+
+}
+
+
+
+
+
