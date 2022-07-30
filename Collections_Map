@@ -1,0 +1,32 @@
+package com.example.kotlin_practice
+
+//Map - We can store elements in the array as key value pair
+//ie -   var age = mapOf<String,Int>("messi" to 30, "ronaldo" to 35)
+
+
+//Program 1 -
+
+fun main () {
+    //immutable
+    var age = mapOf<String,Int>("messi" to 30 , "ronaldo" to 35)
+    println("The age of Messi is :" + age["messi"])
+    println("The age of ronaldo is :" + age["ronaldo"])
+
+    println("-------------------------------------------------------------------------------------")
+
+    //mutable
+
+    var mutableAge = mutableMapOf<String,Int>("messi" to 30 , "ronaldo" to 35)
+
+    //insert the new key-value(element)
+
+    mutableAge.put("neymar",28)
+
+    println("The age of Messi is :" + age["messi"])
+    println("The age of ronaldo is :" + age["ronaldo"])
+
+    //print new element
+    println("The age of neymar is :" + mutableAge["neymar"])
+    //or
+    println("The age of Neymar is " + mutableAge.get("neymar"))
+}
