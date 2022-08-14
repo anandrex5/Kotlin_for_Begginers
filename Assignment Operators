@@ -1,0 +1,38 @@
+package com.example.kotlinpractice
+
+//Assignment Operators are used  to assign values
+//Simple Assignment Operator ( = )
+//Add AND assignment Operator ( += )
+//Subtract AND assignment operator ( -= )
+//Multiply AND assignment Operator ( *= )
+//Modulus AND assignment Operator ( %= )
+
+fun main() {
+
+    var x: Int = 20
+    var y:Int = 15
+    var z: Int = 0
+
+    z= x + y
+    println("Sum of x + y =" + z)
+
+    z+=x //z = z + x
+    println("Sum of z + x =" + z)
+
+    z-=x //z = z - x
+    println("Sum of z - x =" + z)
+
+    z*=x //z = z * x
+    println("Sum of z = z * x =" + z)
+
+    z/=x //z = z / x
+    println("Sum of z = z / x =" + z)
+
+    z%=x //z = z % x
+    println("Sum of z = z % x =" + z)
+
+
+
+
+
+}
