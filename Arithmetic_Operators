@@ -1,0 +1,35 @@
+
+
+fun main() {
+
+    var num1 : Double = 8.4
+    var num2 : Double = 4.2
+    var result : Double = 0.0
+
+    //addition
+    result = num1 + num2
+    println("Sum of number1 + number2  = " + result)
+
+
+    //subtraction
+    result = num1 - num2
+    println("Sum of number1 + number2  = " + result)
+
+    //division
+    result = num1 / num2
+    println("Sum of number1 + number2  = " + result)
+
+    //multiplication
+    result = num1 * num2
+    println("Sum of number1 + number2  = " + result)
+
+    //remainder
+    result = num1 % num2
+    println("Sum of number1 + number2  = " + result)
+
+
+
+
+
+
+}
